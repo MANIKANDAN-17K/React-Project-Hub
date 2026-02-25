@@ -1,0 +1,58 @@
+# ── Dependencies ──
+node_modules/
+/.pnp
+.pnp.js
+
+# ── Production Build ──
+/build
+/dist
+
+# ── Environment Variables ──
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ── Logs ──
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# ── Testing ──
+/coverage
+
+# ── OS Files ──
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── Editor & IDE ──
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+
+# ── Optional Cache ──
+.npm
+.eslintcache
+.stylelintcache
+.cache/
+.parcel-cache/
+
+# ── Yarn ──
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
